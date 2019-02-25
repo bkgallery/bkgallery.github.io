@@ -8273,3 +8273,7 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
 .subject-search-bar {
     margin-bottom: 0 !important;
 }
+
+.loading-img {
+    width: initial;
+}
