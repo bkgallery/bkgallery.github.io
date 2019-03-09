@@ -8277,3 +8277,24 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
 .loading-img {
     width: initial;
 }
+
+.category {
+    height: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.category h4 {
+    color: #fff;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 1050;
+}
+
+@media only screen and (min-width: 600px) {
+    /* .ReactModal__Overlay.ReactModal__Overlay--after-open {
+        width: 500px;
+    } */
+}
